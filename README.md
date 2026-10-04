@@ -1,10 +1,9 @@
-# Google Cybersecurity Labs & Notes 📚🔐
+# Google Cybersecurity Professional Certificate 📚🔐
 
-**Student**: Brian Otieno  
-**Program**: Google Cybersecurity Professional Certificate  
-**Platform**: Coursera  
-**Status**: In Progress  
-**Location**: Kenya 🇰🇪
+**Student:** Brian Otieno
+**Program:** Google Cybersecurity Professional Certificate
+**Platform:** Coursera
+**Status:** In Progress — Course 5 of 8
 
 ---
 
@@ -12,45 +11,47 @@
 
 This repository documents my entire learning journey through the **Google Cybersecurity Professional Certificate**. It contains:
 
-- Detailed course notes
-- Lab screenshots and step-by-step write-ups
+- Detailed course notes and module write-ups
+- Lab screenshots and step-by-step walkthroughs
 - Important commands and scripts
 - Key concepts and takeaways
 - Progress tracking
 
-My goal is to build a strong, well-documented portfolio that demonstrates both my theoretical knowledge and hands-on skills.
+> This repository is also embedded as a directory inside [secure-computing](https://github.com/Brian-otieno592/secure-computing), which unifies all my cybersecurity work.
 
 ---
 
-## 📂 Course Modules Progress
+## 📂 Course Progress
 
-| Module | Status | Key Topics Covered |
-|--------|--------|--------------------|
-| 1. Foundations of Cybersecurity | ✅ Completed | CIA Triad, Security Frameworks, NIST CSF |
-| 2. Play It Safe: Manage Security Risks | 🔄 In Progress | Risk Management, NIST RMF, Audits |
-| 3. Connect and Protect: Networks and Network Security | ⏳ Not Started | TCP/IP, Firewalls, VPNs |
-| 4. Tools of the Trade: Linux and SQL | ⏳ Not Started | Linux Commands, SQL Queries |
-| 5. Assets, Threats, and Vulnerabilities | ⏳ Not Started | Threat Modeling, Vulnerability Scanning |
-| 6. Sound the Alarm: Detection and Response | ⏳ Not Started | SIEM, Incident Response |
-| 7. Automate Cybersecurity Tasks with Python | ⏳ Not Started | Python for Security |
-| 8. Put It All Together: Capstone | ⏳ Not Started | Final Project, Portfolio |
+| Course # | Course Title | Status | Certificate |
+| :--- | :--- | :---: | :--- |
+| **Course 1** | Foundations of Cybersecurity | ✅ Completed | — |
+| **Course 2** | Play It Safe: Manage Security Risks | ✅ Completed | — |
+| **Course 3** | Connect and Protect: Networks and Network Security | ✅ Completed | [View Certificate](https://coursera.org/share/cb0685cc01319525b2725670bab5596d) |
+| **Course 4** | Tools of the Trade: Linux and SQL | ✅ Completed | [View Certificate](https://coursera.org/share/08e7b7b13d79b8ece335657bf6ca963f) |
+| **Course 5** | Assets, Threats, and Vulnerabilities | 🔄 **IN PROGRESS** | — |
+| **Course 6** | Sound the Alarm: Detection and Response | ⏳ Upcoming | — |
+| **Course 7** | Automate Cybersecurity Tasks with Python | ⏳ Upcoming | — |
+| **Course 8** | Put It to Work: Prepare for Cybersecurity Jobs | ⏳ Upcoming | — |
 
+> Courses 1 and 2 were completed before per-course certificate links were tracked here. Certificates for Courses 3 onwards are linked above.
 
 ---
 
-## 🛠️ Tools & Technologies Learned
+## 🛠️ Tools & Technologies Covered
 
-- **Operating Systems**: Linux (Ubuntu/Kali)
-- **Networking**: Wireshark, Nmap, tcpdump
-- **Databases**: SQL (MySQL/PostgreSQL)
-- **Programming**: Python (for cybersecurity)
-- **Others**: Virtual Machines, Google Chronicle, Splunk (basics)
+- **Operating Systems:** Linux (Ubuntu/Kali)
+- **Networking:** Wireshark, Nmap, tcpdump
+- **Databases:** SQL (MySQL/PostgreSQL)
+- **Programming:** Python (for cybersecurity automation)
+- **Platforms:** Virtual Machines, Google Chronicle, Splunk (basics)
 
 ---
 
 ## 📁 Repository Structure
-```bash 
-google-cyber-labs/
+
+```
+google-cybersecurity-certificate/
 ├── Module-01-Foundations/
 ├── Module-02-Risk-Management/
 ├── Module-03-Networks/
@@ -59,40 +60,30 @@ google-cyber-labs/
 ├── Module-06-Detection-Response/
 ├── Module-07-Python/
 ├── Module-08-Capstone/
-├── scripts/              # Python & Bash scripts
-├── resources/            # Cheatsheets & references
-├── screenshots/          # Lab screenshots
-├── notes/                # General notes
-├── CONTRIBUTING.md       # Contribution guidelines
-├── SECURITY.md           # Security policy
+├── notes/
+├── resources/
+├── screenshots/
+├── scripts/
+├── progress.md
+├── CONTRIBUTING.md
+├── SECURITY.md
 └── README.md
 ```
 
-## 🔥 Key Labs & Write-ups
-
-- **Lab 1**: Security Frameworks & CIA Triad Analysis *(Completed)*
-- **Lab 2**: Risk Assessment Exercise
-- **Lab 3**: Network Traffic Analysis with Wireshark
-- **Lab 4**: Linux Command Line Navigation & File Permissions
-- **Lab 5**: SQL Injection & Basic Database Security
-
-*(I'll add detailed write-ups with screenshots as I complete each module)*
-
 ---
 
-## 📌 Important Commands Learned
+## 📌 Key Commands Reference
 
 ```bash
-# Linux Basic Commands
+# Linux essentials
 ls -la
-pwd
-grep -r "search_term"
+grep -r "search_term" .
 sudo apt update && sudo apt upgrade
 
-# Nmap Scanning
+# Nmap scanning
 nmap -sV -O target_ip
 nmap -sC -sV -A target_ip
 
-# Wireshark & tcpdump examples
+# Network capture
 tcpdump -i eth0
 ```

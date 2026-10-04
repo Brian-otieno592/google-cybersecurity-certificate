@@ -1,6 +1,7 @@
 # Module 4: Tools of the Trade: Linux and SQL
 
-**Status**: ⏳ Not Started
+**Status**: ✅ Completed
+**Certificate:** [View Certificate](https://coursera.org/share/08e7b7b13d79b8ece335657bf6ca963f)
 
 ## Key Concepts
 

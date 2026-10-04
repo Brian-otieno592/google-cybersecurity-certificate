@@ -1,6 +1,6 @@
 # Module 5: Assets, Threats, and Vulnerabilities
 
-**Status**: ⏳ Not Started
+**Status**: 🔄 IN PROGRESS
 
 ## Key Concepts
 
